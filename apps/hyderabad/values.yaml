@@ -14,4 +14,4 @@ spec:
   interval: 1m0s
   releaseName: nginx
   values:
-    replicaCount :3
+    replicaCount: 3
