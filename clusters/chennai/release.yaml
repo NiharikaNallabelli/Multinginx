@@ -7,7 +7,7 @@ metadata:
 spec:
   chart:
     spec:
-      replicaCount: 2
+  replicaCount: 2
       chart: nginx
       sourceRef:
         kind: HelmRepository
