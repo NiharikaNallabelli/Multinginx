@@ -7,7 +7,6 @@ metadata:
 spec:
   chart:
     spec:
-  replicaCount: 2
       chart: nginx
       sourceRef:
         kind: HelmRepository
@@ -15,6 +14,7 @@ spec:
   interval: 1m0s
   releaseName: nginx
   values:
+    replicaCount: 2
     extraEnvVars:
       - name: FOO
         value: BAR
